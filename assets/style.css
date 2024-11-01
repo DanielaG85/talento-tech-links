@@ -48,11 +48,13 @@ section{
     cursor: pointer;
     width: 300px;
     margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     
 }
 .boton:hover{
     background-color: #3E0860;
     color: white;
+    transform: scale(1.05);
 }
 
 footer{
